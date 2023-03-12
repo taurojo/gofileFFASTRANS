@@ -130,7 +130,7 @@ try:
     msg.attach(part2)
 
     # Send the message via local SMTP server.
-    s = smtplib.SMTP('smtp.epi.es')
+    s = smtplib.SMTP('smtp.xxx.xx')
     # sendmail function takes 3 arguments: sender's address, recipient's address
     # and message to send - here it is sent as one string.
     s.sendmail(me, you, msg.as_string())
@@ -192,7 +192,7 @@ except Exception as e:
     msg.attach(part2)
 
     # Send the message via local SMTP server.
-    s = smtplib.SMTP('smtp.epi.es')
+    s = smtplib.SMTP('smtp.xxx.xx')
     # sendmail function takes 3 arguments: sender's address, recipient's address
     # and message to send - here it is sent as one string.
     s.sendmail(me, you, msg.as_string())
